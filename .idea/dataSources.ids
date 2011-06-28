@@ -1,0 +1,33 @@
+<?xml version="1.0"?><component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails catarse: test" product="" version="" jdbc-version="" driver-version="" uuid="7cd77232-97ce-4626-a18f-5f62a4f6607b">
+    <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+    <jdbc-url>jdbc:postgresql://127.0.0.1/catarse_test</jdbc-url>
+    <user-name>catarse</user-name>
+    <libraries>
+      <library>
+        <url>jar://$USER_HOME$/.RubyMine31/config/jdbc-drivers/postgresql-9.0-801.jdbc4.jar!/</url>
+      </library>
+    </libraries>
+  </data-source>
+  <data-source source="LOCAL" name="Rails catarse: production" product="" version="" jdbc-version="" driver-version="" uuid="bf8e4bae-3b11-4ea5-8b54-429a8b0b327f">
+    <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+    <jdbc-url>jdbc:postgresql://127.0.0.1/catarse_production</jdbc-url>
+    <user-name>catarse</user-name>
+    <libraries>
+      <library>
+        <url>jar://$USER_HOME$/.RubyMine31/config/jdbc-drivers/postgresql-9.0-801.jdbc4.jar!/</url>
+      </library>
+    </libraries>
+  </data-source>
+  <data-source source="LOCAL" name="Rails catarse: development" product="" version="" jdbc-version="" driver-version="" uuid="68a1d32f-fbdf-4f0d-9227-226a23b12c76">
+    <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+    <jdbc-url>jdbc:postgresql://127.0.0.1:5432/bancodedados</jdbc-url>
+    <user-name>andregabriel</user-name>
+    <user-password>dfcbdfc4dfdcdfc3dfcddfcb</user-password>
+    <libraries>
+      <library>
+        <url>jar://$USER_HOME$/.RubyMine31/config/jdbc-drivers/postgresql-9.0-801.jdbc4.jar!/</url>
+      </library>
+    </libraries>
+  </data-source>
+</component>
