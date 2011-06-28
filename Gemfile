@@ -30,8 +30,9 @@ gem 'mustache'
 gem 'unicode'
 gem 'routing-filter'
 gem 'http_accept_language'
+gem 'capybara', ">= 0.4.0"
+
 group :test, :development do
-  gem 'capybara', ">= 0.4.0"
   gem 'launchy'
   gem 'database_cleaner'
   gem 'steak', "~> 1.1.0"
