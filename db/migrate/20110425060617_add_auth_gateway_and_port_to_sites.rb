@@ -2,7 +2,8 @@ class AddAuthGatewayAndPortToSites < ActiveRecord::Migration
   def self.up
     add_column :sites, :auth_gateway, :boolean, :null => false, :default => false
     add_column :sites, :port, :text
-    execute "UPDATE sites SET auth_gateway = true WHERE path = 'catarse'"
+#    execute "UPDATE sites SET auth_gateway = true WHERE path = 'catarse'"
+    execute "UPDATE sites SET auth_gateway = true WHERE path = 'localhost'"
   end
 
   def self.down
