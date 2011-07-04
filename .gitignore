@@ -3,6 +3,9 @@ db/*.sqlite3
 log/*.log
 tmp/**/*
 config/database.yml
+config/environments/production.rb
+config/environments/development.rb
+config/environments/test.rb
 db/development_structure.sql
 .rvmrc
 # Vim
